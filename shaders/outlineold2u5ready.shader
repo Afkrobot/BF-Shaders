@@ -25,7 +25,7 @@ Shader "Outlined/Silhouette Only" {
 			float3 normal : NORMAL;
 		};
 
-		static fixed GlobalOutline = fixed(0.2);
+		static fixed GlobalOutline = fixed(0.3);
 		uniform float4 _OutlineColor;
 
 		v2f vert(appdata v) {
