@@ -1,5 +1,5 @@
 # BF-Shaders
-TSome of the shaders used for the game "Bug Fables", recovered through googling and by reverse engineering with help of the shader decomp produced by uTinyRipper.
+Some of the shaders used for the game "Bug Fables", recovered through googling and by reverse engineering with help of the shader decomp produced by uTinyRipper.
 ## Shaders and usage
 ### 3dtext.shader
 Used on all the text in the game, is connected to the 3 fonts. Makes the text layer over everything else, making it unaffected by lighting effects and fog.
