@@ -22,7 +22,7 @@ Used on "No Name 1_0.mat", and, presumably, all other 2D holograms.
 ### hologram2.shader
 Used for the glitch effect on holograms (and I believe computer text bubbles), also that scanner thing when you enter the bee factory for the first time.
 ### outline.shader
-Apperantly a test shader for the outline, was not used except for on one material (Material_0). I have no idea where that is used so to make sure I included this here too.
+Apparently a test shader for the outline, was not used except for on one material (Material_0). I have no idea where that is used so to make sure I included this here too.
 ### outlineold2u5ready.shader
 Used on most 3D Objects, draws the object outline.
 ### spriteglow.shader
@@ -37,13 +37,13 @@ Paints object a single unlit color. Used for the Termacade game sprites.
 Visibly moves foilage in the wind, without actually moving any objects.
 
 ## Missing shaders:
-crt.shader						//not complete
-celshaderholo.shader			//probably custom
-celshaderholostencil.shader		//probably custom
-customtoon.shader				//not complete
-decal.shader					//not complete
-outersphere.shader				//probably custom
-scrolling bubbles.shader		//probably custom
-stenciltry5.shader				//probably custom
-stenciltry5b.shader				//probably custom
-wateroutline.shader				//probably custom
+crt.shader						//not complete\
+celshaderholo.shader			//probably custom\
+celshaderholostencil.shader		//probably custom\
+customtoon.shader				//not complete\
+decal.shader					//not complete\
+outersphere.shader				//probably custom\
+scrolling bubbles.shader		//probably custom\
+stenciltry5.shader				//probably custom\
+stenciltry5b.shader				//probably custom\
+wateroutline.shader				//probably custom\
