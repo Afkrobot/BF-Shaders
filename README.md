@@ -33,6 +33,8 @@ Not entirely sure, used on some textures (main2, so probably quite a few objects
 The unlit standard shader but with fog removed, used for the Omega eye, fire sprites and some material relating to the fridge.
 ### unlittexcolor.shader
 Paints object a single unlit color. Used for the Termacade game sprites.
+### wateroutline.shader
+Used on most bodies of water to make the texture scroll, render the shoreline and submerged geometry.
 ### windmovement.shader
 Visibly moves foilage in the wind, without actually moving any objects.
 
@@ -46,4 +48,3 @@ outersphere.shader				//probably custom\
 scrolling bubbles.shader		//probably custom\
 stenciltry5.shader				//probably custom\
 stenciltry5b.shader				//probably custom\
-wateroutline.shader				//probably custom\
