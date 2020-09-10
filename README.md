@@ -11,6 +11,8 @@ Same as above but for materials that are applied to both sides of a mesh. (namel
 Used for most of the sprites ingame.
 ### customtoon2.shader
 Used on most 3D Objects, makes the Unity lighting hitting the object appear cel shaded.
+### crt.shader
+Used in the Termacade for the CRT screen effect.
 ### fireshader.shader
 Probably what was used for the effect on getting the "Burn" status.
 ### fxaa3.shader
