@@ -39,8 +39,6 @@ Shader "Outlined/Silhouette Only" {
 			o.pos.xy += offset * o.pos.z * GlobalOutline;
 			o.color = _OutlineColor;
 			return o;
-
-			return o;
 		}
 		ENDCG
 
