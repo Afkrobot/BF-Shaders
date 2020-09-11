@@ -9,6 +9,8 @@ Used on ShadowCaster.mat, makes the alpha of textures transparent. I don't know 
 Same as above but for materials that are applied to both sides of a mesh. (namely just the spoder material (Material.5_0.mat))
 ### customsprite.shader
 Used for most of the sprites ingame.
+### customtoon.shader
+Used on the rock model that spawns by script once you break a breakable rock pile using Kabbus dash.
 ### customtoon2.shader
 Used on most 3D Objects, makes the Unity lighting hitting the object appear cel shaded.
 ### crt.shader
@@ -41,11 +43,8 @@ Used on most bodies of water to make the texture scroll, render the shoreline an
 Visibly moves foilage in the wind, without actually moving any objects.
 
 ## Missing shaders:
-crt.shader						//not complete\
 celshaderholo.shader			//probably custom\
 celshaderholostencil.shader		//probably custom\
-customtoon.shader				//not complete\
-decal.shader					//not complete\
 outersphere.shader				//probably custom\
 scrolling bubbles.shader		//probably custom\
 stenciltry5.shader				//probably custom\
