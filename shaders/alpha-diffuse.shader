@@ -3,7 +3,8 @@
 //This is basically just the legacy Transparent/Diffuse.
 //Why was this a custom shader? I don't know, may have been the fallback. but I can not tell, using the "Standard"-shader would have done it aswell.
 
-Shader "Custom/Transparent/Diffuse" {
+//Shader "Custom/Transparent/Diffuse" {
+Shader "Transparent/Cutout/Diffuse" {
     Properties{
         _Color("Main Color", Color) = (1,1,1,1)
         _MainTex("Base (RGB) Trans (A)", 2D) = "white" {}
