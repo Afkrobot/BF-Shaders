@@ -9,7 +9,7 @@ Shader "Sprites/Bumped Diffuse with Shadows"
 		_BumpMap("Normalmap", 2D) = "bump" {}
 		_Color("Tint", Color) = (1,1,1,1)
 		[MaterialToggle] PixelSnap("Pixel snap", Float) = 0
-				_Cutoff("Alpha Cutoff", Range(0,1)) = 0.5
+		_Cutoff("Alpha Cutoff", Range(0,1)) = 0.5
 
 	}
 
@@ -24,7 +24,7 @@ Shader "Sprites/Bumped Diffuse with Shadows"
 				"CanUseSpriteAtlas" = "True"
 
 			}
-				LOD 300
+			LOD 300
 
 
 			Cull Off
@@ -34,7 +34,7 @@ Shader "Sprites/Bumped Diffuse with Shadows"
 
 
 			CGPROGRAM
-			#pragma surface surf Lambert alpha vertex:vert addshadow alphatest:_Cutoff 
+			#pragma surface surf Lambert alpha vertex:vert  alphatest:_Cutoff fullforwardshadows
 			#pragma multi_compile DUMMY PIXELSNAP_ON 
 
 			sampler2D _MainTex;
@@ -53,7 +53,7 @@ Shader "Sprites/Bumped Diffuse with Shadows"
 				#if defined(PIXELSNAP_ON) && !defined(SHADER_API_FLASH)
 				v.vertex = UnityPixelSnap(v.vertex);
 				#endif
-				v.normal = float3(0,0,-1);
+				v.normal = float3(0, 0, -1);
 				v.tangent = float4(1, 0, 0, 1);
 
 				UNITY_INITIALIZE_OUTPUT(Input, o);
